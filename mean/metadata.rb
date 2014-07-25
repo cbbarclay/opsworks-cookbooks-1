@@ -8,5 +8,3 @@ recipe 'mean::create-journal-link', 'Creates a symlink for the MongoDB journal'
 recipe 'mean::setup-mongo-shell', 'Installs the MongoDB shell tool'
 recipe 'mean::configure-mean-user', 'Creates the MongoDB user for the MEAN App'
 recipe 'mean::deploy-mean-app', 'Installs the MEAN App'
-
-depends 'mongodb'
